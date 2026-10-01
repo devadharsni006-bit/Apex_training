@@ -1,7 +1,4 @@
-basic=float(input("enter the basic salary"))
-hra=basic*20/100
-da=basic*10/100
-gross=basic+hra+da
-print("hra:",hra)
-print("da:",da)
-print("gross:",gross)
+course=[" python","java","sql","data science"]
+course=input(*"enter course name")
+print("available:", course in courses)
+print("not available:",courrse not in courses)
